@@ -1882,7 +1882,12 @@ p.question {
 // Visitor Info
 // --------------------------------------------------*/
 .post {
-  height: 550px !important;
+  height: 535px !important;
+}
+@media (max-width: 767px) {
+ .post {
+   min-height: 640px !important; 
+ }
 }
 .info-box {
   margin-bottom: 36px !important;
