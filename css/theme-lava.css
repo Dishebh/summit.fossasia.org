@@ -1886,7 +1886,7 @@ p.question {
 }
 @media (max-width: 767px) {
  .post {
-   min-height: auto !important; 
+   height: auto !important; 
  }
 }
 .info-box {
